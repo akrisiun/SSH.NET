@@ -257,6 +257,7 @@ namespace Renci.SshNet.Abstractions
         }
 #endif // FEATURE_HMAC_SHA512
 
+/*
 #if FEATURE_HMAC_RIPEMD160
         public static System.Security.Cryptography.HMACRIPEMD160 CreateHMACRIPEMD160(byte[] key)
         {
@@ -268,5 +269,6 @@ namespace Renci.SshNet.Abstractions
             return new global::SshNet.Security.Cryptography.HMACRIPEMD160(key);
         }
 #endif // FEATURE_HMAC_RIPEMD160
+*/
     }
 }
